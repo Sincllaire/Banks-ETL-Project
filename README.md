@@ -1,5 +1,9 @@
 # Banks Market Capitalization ETL Project
 
+**About**
+
+This project is an end-to-end ETL (Extract, Transform, Load) pipeline designed to scrape, process, and store market capitalization data of the world's largest banks. It automates data extraction from Wikipedia, transforms values into multiple currencies, and loads the results into both a CSV file and an SQLite database for further analysis. This project demonstrates key data engineering concepts, including web scraping, data transformation, and database management.
+
 **Project Overview**
 
 This project is an ETL (Extract, Transform, Load) pipeline that extracts data on the largest banks by market capitalization from a Wikipedia page, transforms the data into multiple currencies using exchange rates, and loads the results into both a CSV file and an SQLite database. The final dataset can then be queried to analyze market trends.
